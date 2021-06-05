@@ -1,0 +1,32 @@
+/* body {
+    background-color: #F37520;
+}
+header {
+    margin: 2vh auto;
+
+}
+header, nav, main {
+    background-color: #FFF;
+    min-height: 10vh;
+}
+nav, main {
+    min-height: 82vh;
+} */
+
+.container {
+    padding: 2rem;
+}
+.row > .col, .row > [class^=col-], .bg {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(243, 117, 32, .15);
+    border: 1px solid rgba(243, 117, 32, .2)
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {} 
+
+@media (min-width: 1200px) {}
